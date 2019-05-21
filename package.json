@@ -1,0 +1,23 @@
+{
+  "name": "testdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test_script.js",
+  "dependencies": {
+    "pg": "^7.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jitammy/testdb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jitammy/testdb/issues"
+  },
+  "homepage": "https://github.com/jitammy/testdb#readme"
+}
