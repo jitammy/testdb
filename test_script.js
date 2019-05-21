@@ -23,6 +23,7 @@ function getUserWithFirstName(firstname, callback) {
         .catch(error => {
             callback(error)
         })
+
 }
 getUserWithFirstName(process.argv[2], function (err, output) {
     if (!err) {
@@ -30,7 +31,7 @@ getUserWithFirstName(process.argv[2], function (err, output) {
         console.log(
             `Searching ... \nFound ${userNumber} person(s) by the name '${process.argv[2]}':`
         )
-       output.forEach((element, index) => {
+        output.forEach((element, index) => {
             let year = element.birthdate.getFullYear()
             let month = element.birthdate.getMonth()
             let thedate = element.birthdate.getDate()
@@ -40,3 +41,4 @@ getUserWithFirstName(process.argv[2], function (err, output) {
         console.log(err)
     }
 })
+
